@@ -6,6 +6,8 @@
 
 'use strict';
 
+grunt.loadNpmTasks('grunt-contrib-sass');
+
 module.exports = function(grunt) {
 
   // load all grunt tasks
